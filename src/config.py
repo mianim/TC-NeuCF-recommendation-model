@@ -1,0 +1,19 @@
+rating_data_path =  'data/ratings.dat'  # Rating data path
+movies_data_path =  'data/movies.dat'  # Movies data path
+num_factors = 32  # Embedding size
+top_k = 10  # Top k instances to calculate metrics
+num_neg = 4  # Number of negative instances to pair with a positive instance
+num_neg_test = 100  # Number of negative instances for test set
+layers = [64, 32, 16, 8, 4]  # Layers of MLP
+# lr = 0.001  # Learning rate
+# epochs = 10  # Number of epochs
+batch_size = 256  # Batch size
+dropout = 0.2  # Dropout rate
+seed = 42  # Seed for reproducibility
+out = True  # Whether to save the trained model
+# recommend_n = 10  # Number of items to recommend to a given user
+recommend_user = 12  # ID number of the user to be recommended
+
+lr = 0.0005  # test 学习率
+recommend_n = 5  # test 推荐列表长度
+epochs = 10  # test 迭代次数
